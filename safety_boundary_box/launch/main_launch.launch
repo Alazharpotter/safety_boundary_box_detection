@@ -1,0 +1,14 @@
+<launch>
+
+    <!-- Launch Params -->
+    <include file="src/safety_boundary_box/launch/launch_params.launch" />
+
+    <!-- Launch lidar data parsing node to start detection --> 
+    <!-- For 2D - subscribes too /scan --> 
+    <!-- For 3D - subscribes too /velodyne_points --> 
+    <node pkg="safety_boundary_box" type="laser_parser_node" name="laser_parser" output="screen" />
+
+    <!-- Launch rviz visualization tool. Optional. Publishes too: /visualization_marker  --> 
+    <node pkg="safety_boundary_box" type="rviz_visual_plug_node" name="rviz_visual" output="screen" />
+
+</launch>
