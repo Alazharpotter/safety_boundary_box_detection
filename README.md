@@ -120,7 +120,7 @@ You can showcase your system here! Example below:
 
 **Warning Message**
   
-  ![3D PointCloud Processing](images/warning msg.png)
+  ![3D PointCloud Processing](images/warning_msg.png)
 
 ## Example Applications 🚀
 3d_pointcloud_processing
