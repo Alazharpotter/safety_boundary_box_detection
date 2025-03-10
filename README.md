@@ -130,9 +130,7 @@ You can showcase your system here! Example below:
 
 ## Future Work / TODO
 
-- Add support for multi-lidar fusion
-- Support dynamic boundary shapes
-- Add diagnostics publishing
+- Object Tracker?
 - Port to ROS 2
 
 
