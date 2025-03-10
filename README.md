@@ -111,14 +111,19 @@ You can showcase your system here! Example below:
 
 - **2D Boundary Box Detection (RViz)**
   
-  ![2D Boundary Box Detection](images/2d_boundary_box_detection.png)
+  ![2D Boundary Box Detection](images/triangle.png)
+  ![2D Boundary Box Detection](images/pentagon.png)
 
-- **3D PointCloud Processing**
+-  **2D Boundary Box Detection (RViz)**
   
-  ![3D PointCloud Processing](images/3d_pointcloud_processing.gif)
+  ![3D PointCloud Processing](images/sphere.png)
+
+**Warning Message**
+  
+  ![3D PointCloud Processing](images/warning msg.png)
 
 ## Example Applications 🚀
-
+3d_pointcloud_processing
 - Autonomous Robot Safety Zones
 - Lidar-based Obstacle Avoidance
 - Industrial Robot Collision Prevention
