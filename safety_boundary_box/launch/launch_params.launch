@@ -1,0 +1,3 @@
+<launch>
+    <rosparam file="src/safety_boundary_box/config/params.yaml"/>
+</launch>
